@@ -8,6 +8,18 @@ paste the minimapper-Folder in the Folder
 ./public/src/
 ```
 
+in the vite.cofig.ts add the following line:
+
+```
+export default defineConfig({
+  build: {
+        rollupOptions: {
+            input: {
+              ...
+                minimapper: "./src/minimapper/index.html",
+              ...
+```
+
 ## note
 
 the Minimaps have to be Exported fron the Tiled Map-Editor into:
