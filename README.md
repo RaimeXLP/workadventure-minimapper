@@ -5,7 +5,7 @@ an addon to workadveture for a simple minimap button
 
 paste the minimapper-Folder in the Folder 
 ```
-./public/src/
+./src/
 ```
 
 in the vite.cofig.ts add the following line:
