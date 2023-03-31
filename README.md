@@ -42,3 +42,6 @@ in your map script paste the following code into __after initialising the Workad
 ```
 minimapper();
 ```
+## todo
+
+- custom Image import
